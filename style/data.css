@@ -1,0 +1,18 @@
+.design {
+  object-fit: cover;
+  height: 278px;
+}
+body {
+  background-color: #24353f;
+}
+nav,.welcome{
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn{
+    border-color: yellow;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: yellow;
+}

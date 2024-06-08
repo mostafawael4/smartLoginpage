@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>signUp</title>
+  </head>
+
+  <body>
+    <div class="form w-50 m-auto mt-5 p-5 text-center">
+      <h1>Smart Login System</h1>
+      <form action="">
+        <input
+          id="userName"
+          type="text"
+          placeholder="Enter your name"
+          class="form-control mt-4"
+        />
+        <input
+        id="userEmail"
+          type="email"
+          placeholder="Enter your email"
+          class="form-control mt-3"
+        />
+        <input
+        id="userPassword"
+          type="password"
+          placeholder="Enter your password"
+          class="form-control mt-3"
+        />
+      </form>
+      <div class="suc text-success d-none">Success</div>
+      <div class="inputreq text-danger d-none ">All input are required</div>
+      <button class="btn  mt-4  form-control" id="signUp">Sign Up</button>
+      <h6 class="text-white">
+        Do you have an account?
+        <a class="text-white" href="index.html">Sign In</a>
+      </h6>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>

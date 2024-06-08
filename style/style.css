@@ -1,0 +1,33 @@
+body {
+  background-color: #24353f;
+}
+h1 {
+  color: #16aac0;
+}
+.form-control {
+  background-color: transparent;
+}
+.form-control:focus {
+  background-color: transparent;
+  border-color: #80bdff;
+}
+.form {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn {
+  background-color: red;
+  color: #16aac0;
+  background-color: transparent;
+  border-color: #80bdff;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.btn:hover {
+  color: white;
+  background-color: #17a2b8;
+}
+
